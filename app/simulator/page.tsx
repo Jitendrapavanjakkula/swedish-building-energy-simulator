@@ -518,7 +518,6 @@ export default function BuildingSimulator() {
                 setPreConfigHourly(null);
               }}
               hideConstructionPeriod={simulationType === "real-time"}
-              buildingType={buildingType}
             />
           )}
 
@@ -666,7 +665,7 @@ export default function BuildingSimulator() {
         {/* Footer */}
         <footer className="mt-12 border-t border-gray-200 pt-6 text-center">
           <p className="text-sm text-gray-500">
-            Developed by Jitendra Pavan Jakkula | Research Assistant, Lund University, Sweden
+            Developed by Jitendra Pavan Jakkula | Project Assistant, Lund University, Sweden
           </p>
           <p className="text-sm text-gray-500 mt-1">
             Supervised by Akram Abdul Hamid | Assistant Professor, Lund University, Sweden
